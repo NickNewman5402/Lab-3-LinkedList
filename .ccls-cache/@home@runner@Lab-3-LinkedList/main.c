@@ -66,7 +66,7 @@ node* reverse(node* head) {
 void insertToPlace(node* list, int val, int place) {
 
 	node *p_list = list;
-	int count = 0;
+	int count = 1;
 	
 	if(list == NULL || list->next == NULL || place <= 1)
 	{
