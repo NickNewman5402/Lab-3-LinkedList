@@ -8,7 +8,7 @@
 #include<stdlib.h>
 #include "main.h"
 
-//this function takes an item and insert it in the linked list pointed by root.
+//Completed - this function takes an item and insert it in the linked list pointed by root.
 node*  insert_front(node *root, int item) {
 	node *temp;
 	//create a new node and fill-up the node
@@ -38,7 +38,7 @@ void display(node* t) {
 	}
 
 }
-
+//Completed
 node* reverse(node* head) {
 	// 1 2 3 4 5... Function 5 4 3 2 1
 	if(head == NULL || head->next == NULL)
@@ -62,7 +62,7 @@ node* reverse(node* head) {
 	
 	return p_reversed_list;
 }
-
+//Completed
 void insertToPlace(node* list, int val, int place) {
 
 	node *p_list = list;
